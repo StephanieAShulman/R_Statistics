@@ -17,8 +17,7 @@ With AutosRUs newest prototype – the MechaCar – suffering from manufacturing
 
 ## Findings
 ### Linear Regression to Predict MPG
-![Deliverable1](https://user-images.githubusercontent.com/30667001/160253402-1167c55d-de94-4916-89b1-77ae76793003.png)
+![Deliverable1](https://user-images.githubusercontent.com/30667001/160253526-9b5acfc7-b1e8-46db-9cb5-bd67fde4fe87.png)
 
-Based on p-values far below an alpha of 0.05, it is fair to reject the null hypothesis. There appears to be a significant, linear relationship between the independent predictors vehicle length and ground clearance and the dependent variable, miles per gallon, given all other variables in the model. The model predicts that for every one-unit change in ground clearance and vehicle length, there will be a 3.5 unit increase and 6.3 unit increase in mpg, respectively. The adjusted R2 of 0.68 indicates that roughly 70% of the variance found in mpg can be explained by the predictor variables. Vehicle weight, spoiler angle and AWD may need to be removed to increase the model precision and/or vehicle length and ground clearance transformed to improve the model
-
+Based on p-values far below an alpha of 0.05, it is fair to reject the null hypothesis. There appears to be a significant, linear relationship between the independent predictors vehicle length and ground clearance and the dependent variable, miles per gallon, given all other variables in the model. The model predicts that for every one-unit change in ground clearance and vehicle length, there will be a 3.5 unit increase and 6.3 unit increase in mpg, respectively. The adjusted R2 of 0.68 indicates that roughly 70% of the variance found in mpg can be explained by the predictor variables. Vehicle weight, spoiler angle and AWD may need to be removed and/or vehicle length and ground clearance transformed to increase the model precision.
 
