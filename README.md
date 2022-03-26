@@ -1,5 +1,5 @@
 # mechacaR-Analysis
-![Bugatti](https://user-images.githubusercontent.com/30667001/160251248-ad46da0a-d9c4-4c3a-ba41-d2ddd9b3edbc.png)
+![Bugatti](https://user-images.githubusercontent.com/30667001/160249501-6391a2c9-3e9d-44b0-8ad5-e730c8093178.jpg)
 
 Use R to implement data analytics including multiple linear regression, summary statistics and t-Tests
 
@@ -24,7 +24,13 @@ Based on p-values far below an alpha of 0.05, it is fair to reject the null hypo
 ### Summary Statistics on Suspension Coils
 ![Deliverable2](https://user-images.githubusercontent.com/30667001/160253858-e48883ed-ebbc-4c20-bfe8-47482c241e5b.png)
 
-Suspension coils for the MechaCar must not exceed a variance of 100 PSI. Although total summary statistics indicate that the current manufacturing lots fall well below that value with a combined average variance of 62, inspection of the variance by lot indicates an extremely large spread from the mean among the coils that make up Lot 3. While Lot 1 has almost no variance and Lot 2 very little, there is likely a production issue associated with the Lot 3 coils that requires further investigation.
+Suspension coils for the MechaCar must not exceed a variance of 100 PSI. Although total summary statistics indicate that the current manufacturing lots fall well below that with a combined average variance of 62, inspection of the variance by lot indicates an extremely large spread from the mean among the coils that make up Lot 3. While Lot 1 has almost no variance and Lot 2 very little, there is likely a production issue associated with the Lot 3 coils that requires further investigation.
 
+### T-Tests on Suspension Coils
+![Deliverable3](https://user-images.githubusercontent.com/30667001/160255035-721ac3c8-e172-4de8-bd83-a8d6aabc0414.png)
 
+To address the issue in Lot 3 uncovered during a review of the summary statistics, multiple t-tests were performed to compare the PSI for the entire coil sample and each individual lot PSI to the population mean of 1,500 PSI. With a p-value of 0.06, there is no evidence for rejecting the null hypothesis that the true PSI sample mean is equal to 1500. The same findings hold for Lots 1 and 2, but for Lot 3 - with a p-value below the threshold of 0.05 - there is evidence to reject the null. Coil PSI values are not equal to the population mean of 1,500, supporting the need to further investigate production of this lot.
+
+## Next Steps
+### Study Design: MechaCar vs Competition
 
