@@ -1,5 +1,5 @@
 # mechacaR-Analysis
-![Bugatti](https://user-images.githubusercontent.com/30667001/160249501-6391a2c9-3e9d-44b0-8ad5-e730c8093178.jpg)
+![Bugatti](https://user-images.githubusercontent.com/30667001/160251248-ad46da0a-d9c4-4c3a-ba41-d2ddd9b3edbc.png)
 
 Use R to implement data analytics including multiple linear regression, summary statistics and t-Tests
 
