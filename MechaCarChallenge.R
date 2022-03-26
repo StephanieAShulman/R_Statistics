@@ -45,3 +45,12 @@ total_summary
 lot_summary <- data.frame(coils_data %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI), .groups = 'keep'))
 # View data
 lot_summary
+
+# DELIVERABLE 3: t-Test on Suspension Coils
+# Perform t-tests to determine if all manufacturing lots and each lot individually
+#  are statistically different from the population mean of 1,500 pounds per square inch.
+attach(coils_data)
+t.test(PSI, mu=1500)
+t.test(subset(PSI, Manufacturing_Lot=="Lot1"), mu=1500)
+t.test(subset(PSI, Manufacturing_Lot=="Lot2"), mu=1500)
+t.test(subset(PSI, Manufacturing_Lot=="Lot3"), mu=1500)
