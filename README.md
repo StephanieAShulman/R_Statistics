@@ -48,7 +48,7 @@ H0: There is no difference in number of contact events between MechaCar and the 
 HA: There is a difference in number of events between MechaCar and the competition.
 
 #### Statistical Tests
-As most collected data will be continuous, multiple linear regression can be performed on both the MechaCar data and that of the competition to better predict the difference in number of events between the two groups. Mean number of events for the two different groups can be compared using a two-sample t-test. Additional tests can be performed (eg: chi-squared test) to look at differences in severity of impact of each group.
+As most collected data will be continuous, multiple linear regression can be performed on both the MechaCar data and that of the competition to better predict the difference in number of events between the two groups. Mean number of events for the two different groups can be compared using a two-sample t-test.
 
 #### Necessary Data
 Data specific to the MechaCar will be collected by the company through the feedback loop. The same data will have to be collected on the competition. It is most likely that the data will have to be gathered from outside resources that may include national groups (eg: [The United States Department of Transportation, National Center for Statistics and Analysis](https://www.nhtsa.gov/data), [The National Safety Council, Injury Facts](https://injuryfacts.nsc.org/motor-vehicle/road-users/pedestrians/)), from consumer groups (eg: Consumer Reports) and from automotive-specific sites like VAuto (dealer-specific), AutoTrader and CarGuru.
